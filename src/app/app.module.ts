@@ -15,6 +15,8 @@ import { QuienessomosComponent } from './template/quienessomos/quienessomos.comp
 import { ServiciosComponent } from './template/servicios/servicios.component';
 import { TestimoniosComponent } from './template/testimonios/testimonios.component';
 import { ContactanosComponent } from './template/contactanos/contactanos.component';
+//import { YouTubePlayerModule } from '@angular/youtube-player';
+//import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 
 @NgModule({
@@ -32,10 +34,14 @@ import { ContactanosComponent } from './template/contactanos/contactanos.compone
     ServiciosComponent,
     TestimoniosComponent,
     ContactanosComponent,
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    //SweetAlert2Module.forRoot(),
+    
 
   ],
   providers: [],

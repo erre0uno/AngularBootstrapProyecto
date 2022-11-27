@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import Swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-contactanos',
@@ -7,7 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactanosComponent implements OnInit {
 
-  constructor() { }
+  enviar():void{
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Your work has been saved',
+      showConfirmButton: false,
+      timer: 3500
+    })
+  };
+
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
 
@@ -15,9 +29,8 @@ export class ContactanosComponent implements OnInit {
 
 
   }
-  enviar(){
-    //swal("Listo !", "tu informacion se envio correctamente !", "success");
-  }
+
+
 
 
 }

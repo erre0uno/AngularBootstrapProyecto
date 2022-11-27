@@ -8,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
+  urlmision:string='mision';
+  urlvision:string='vision';
+  urlrazonsocial:string='razonsocial';
+  urlquienessomos:string='quienessomos';
+  urlservicios:string='servicios';
+  urltestimonios:string='testimonios';
+  urlcontactanos:string='contactanos';
+  
 
   ngOnInit(): void {
   }
+
+  
 
 }

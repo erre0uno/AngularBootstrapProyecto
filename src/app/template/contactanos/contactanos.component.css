@@ -1,0 +1,10 @@
+
+.card{
+    max-width: 550px;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    border: solid 2px rgba(4, 55, 194, 0.531) ;
+}
+iframe{
+    border-radius: 12px;
+}
