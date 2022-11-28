@@ -1,338 +1,619 @@
-    <main class="" >
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
 
 
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/img/carrusel4.jpg" alt="">    
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1 class="display-5 fw-bold">La experiencia que te mereces.</h1>
-                <h2 class="fw-bold text-success"> <del class="text-danger" > $ 650<span>/us</span></del> </h2>
-                <p><a class="btn btn-lg btn-success" routerLink="/servicios" > <h1>$500<span>/us</span></h1> Lo quiero ahora </a></p>
-              </div>
-            </div>
+<main class="">
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/carrusel4.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="display-5 fw-bold">La experiencia que te mereces.</h1>
+            <h2 class="fw-bold text-success"> <del class="text-danger"> $ 650<span>/us</span></del> </h2>
+            <p><a class="btn btn-lg btn-success" routerLink="/servicios">
+                <h1>$500<span>/us</span></h1> Lo quiero ahora
+              </a></p>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/img/carrusel7.jpg" alt="" style="background-color: rgba(0, 0, 0, 0.73)
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/carrusel7.jpg" alt="" style="background-color: rgba(0, 0, 0, 0.73)
             ;">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1 class="display-5 fw-bold">Destinos increibles te esperan...</h1>
-                <h2 class="fw-bold text-success"> <del class="text-danger" > $ 850<span>/us</span></del> </h2>
-                <p><a class="btn btn-lg btn-success" routerLink="/servicios" > <h1>$799<span>/us</span></h1> Lo quiero ! </a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/carrusel8.jpg" alt="">
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1 class="display-5 fw-bold">Destinos de otro nivel.</h1>
-                <h2 class="fw-bold text-success"> <del class="text-danger" > $ 950<span>/us</span></del> </h2>
-                <p><a class="btn btn-lg btn-success" routerLink="/servicios" > <h1>$799<span>/us</span></h1> Quiero esta experiencia ! </a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <div class="container px-3 py-3" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
-    
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/viaje2.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small>Earth</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small>3d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/viaje3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small>4d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/img/viaje4.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small>California</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small>5d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="display-5 fw-bold">Destinos increibles te esperan...</h1>
+            <h2 class="fw-bold text-success"> <del class="text-danger"> $ 850<span>/us</span></del> </h2>
+            <p><a class="btn btn-lg btn-success" routerLink="/servicios">
+                <h1>$799<span>/us</span></h1> Lo quiero !
+              </a></p>
           </div>
         </div>
       </div>
-
-      <div class="b-example-divider"></div>
-
-      <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom">Icon grid</h2>
-    
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-location-dot bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-globe bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-plane bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-earth-americas bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-compass bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-suitcase-rolling bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-car-side bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <i class="fa-solid fa-route bi text-muted flex-shrink-0 me-3 fa-xl"></i>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
+      <div class="carousel-item">
+        <img src="./assets/img/carrusel8.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="display-5 fw-bold">Destinos de otro nivel.</h1>
+            <h2 class="fw-bold text-success"> <del class="text-danger"> $ 950<span>/us</span></del> </h2>
+            <p><a class="btn btn-lg btn-success" routerLink="/servicios">
+                <h1>$799<span>/us</span></h1> Quiero esta experiencia !
+              </a></p>
           </div>
         </div>
       </div>
-    
-      <div class="b-example-divider"></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom text-success">Servicios para suscriptores</h2>
 
-      <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Columns with icons</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
-            </div>
-            <h3 class="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
-              Call to action
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
-            </div>
-            <h3 class="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
-              Call to action
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-            </div>
-            <h3 class="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link d-inline-flex align-items-center">
-              Call to action
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-            </a>
-          </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-location-dot bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-primary">Todos los destinos</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
         </div>
       </div>
-    
-      <div class="b-example-divider"></div>
-    
-      <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Hanging icons</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-            </div>
-            <div>
-              <h3 class="fs-2">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="btn btn-primary">
-                Primary button
-              </a>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-            </div>
-            <div>
-              <h3 class="fs-2">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="btn btn-primary">
-                Primary button
-              </a>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-            </div>
-            <div>
-              <h3 class="fs-2">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="btn btn-primary">
-                Primary button
-              </a>
-            </div>
-          </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-globe bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-warning">Combertura global</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
         </div>
       </div>
-    
-    
-    
-      <div class="b-example-divider"></div>
-    
-    
-      <div class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Features with title</h2>
-    
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-          <div class="d-flex flex-column align-items-start gap-2">
-            <h3 class="fw-bold">Left-aligned title explaining these awesome features</h3>
-            <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="btn btn-primary btn-lg">Primary button</a>
-          </div>
-          <div class="row row-cols-1 row-cols-sm-2 g-4">
-            <div class="d-flex flex-column gap-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                  <use xlink:href="#collection" />
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-plane bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-primary">Alianzas</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-earth-americas bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-warning">Soporte</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-compass bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-primary">Guias Expertos</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-suitcase-rolling bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-warning">Seguros</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-car-side bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-primary">Transporte</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <i class="fa-solid fa-route bi text-muted flex-shrink-0 me-3 fa-xl"></i>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-warning">Recorridos</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container px-3 py-3" id="custom-cards">
+    <h2 class="py-4 border-bottom text-primary">Destinos <span class="text-success">😉 el mundo te espera ! 😎</span>
+    </h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">  Praga  </h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
                 </svg>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-    
-            <div class="d-flex flex-column gap-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                  <use xlink:href="#gear-fill" />
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
                 </svg>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-    
-            <div class="d-flex flex-column gap-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                  <use xlink:href="#speedometer" />
-                </svg>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-    
-            <div class="d-flex flex-column gap-2">
-              <div
-                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                  <use xlink:href="#table" />
-                </svg>
-              </div>
-              <h4 class="fw-semibold mb-0">Featured title</h4>
-              <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
+                <small>3d</small>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </main>
-    
-    
-          
-    
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Alemania</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>Pakistan</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje4.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Tenerife</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje15.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">  Amsterdam  </h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje14.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Londres</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>Pakistan</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje13.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Paris</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje12.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">  Agadir  </h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje11.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Punta cana</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>Pakistan</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('./assets/img/viaje10.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold pb-1">Disneyland</h3>
+            <h2><br>✈️  <br>📍</h2>
+            <ul class="d-flex list-unstyled mt-auto pt-5 pb-1">
+              <li class="me-auto">
+                <img src="./assets/img/ico.png" alt="Bootstrap" width="40" height="40"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill" />
+                </svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3" />
+                </svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Servicios especializados</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="d-flex flex-column align-items-start gap-2">
+        <h3 class="fw-bold">Ofrecemos las mejores formas de un viaje sin preocupaciones .</h3>
+        <h5 class="fw">Disfruta nos encargamos de todo!.</h5>
+        <p class="fs-5">Gracias a nuestros convenios y soporte tenemos cubrimiento completo de tu viaje de principio a
+          fin .</p>
+        <a href="#" class="btn btn-primary btn-lg">Primary button</a>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="d-flex flex-column gap-2">
+          <div
+            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#collection" />
+            </svg>
+          </div>
+          <h4 class="fw-semibold mb-0">Documentacion</h4>
+          <p class="text-muted">Nos encargamos de todos los tramites y seguros que necesites.</p>
+        </div>
+
+        <div class="d-flex flex-column gap-2">
+          <div
+            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-warning bg-gradient fs-4 rounded-3">
+            <svg class="" width="1em" height="1em">
+              <use xlink:href="#gear-fill" />
+            </svg>
+          </div>
+          <h4 class="fw-semibold mb-0">Paquetes</h4>
+          <p class="text-muted">Armamos paquetes a tu medidad y comodidad.</p>
+        </div>
+
+        <div class="d-flex flex-column gap-2">
+          <div
+            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#speedometer" />
+            </svg>
+          </div>
+          <h4 class="fw-semibold mb-0">Sin Contratiempos</h4>
+          <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+
+        <div class="d-flex flex-column gap-2">
+          <div
+            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-4 rounded-3">
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#table" />
+            </svg>
+          </div>
+          <h4 class="fw-semibold mb-0">Calendario ajustable</h4>
+          <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+<div class="container">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal py-3">Planes</h1>
+    <p class="fs-5 text-muted">Disponemos de los mejores planes del mercado . con toda la comodidad y el mejor servicio que solo Qatar Viajes te puede ofrecer. Gracias a nuestras alianzas disffrutaras de la mejor cobertura internacional.</p>
+  </div>
+  <div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Gratuito</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 Destinos locales</li>
+              <li>2 Destinos premium</li>
+              <li>Soporte local</li>
+              <li>Seguros</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Gratis</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 Destinos locales</li>
+              <li>10 Destinos premium</li>
+              <li>Soporte local, internacional</li>
+              <li>Seguros</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Premium</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 Destinos locales</li>
+              <li>15 Destinos premium</li>
+              <li>Soporte global total</li>
+              <li>Seguros</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Enterprise</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="display-6 text-center mb-4">Compare planes</h2>
+
+    <div class="table-responsive pb-4">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">Gratuito</th>
+            <th style="width: 22%;">Premium</th>
+            <th style="width: 22%;">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Publico</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Privado</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Permisos</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Compartidos</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Compartir con mienbros</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Seguros vip</th>
+            <td></td>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>  
+
+  <div class="b-example-divider"></div>
+
+  <div class="container px-1 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Sobre nosotros</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-center py-2 ">Mision</h3>
+          <p>La calidad, la información, la personificación y una distinguida y amplia gama de productos son nuestra máxima prioridad para que disfrutes al máximo de tus vacaciones.Nuestro equipo cuenta con pasión y con un profundo y variado conocimiento en materia turística.</p>
+          <a routerLink="/mision"  class="btn text-center btn-primary">
+            mision
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-center py-2 ">Vision</h3>
+          <p>Con más de 20 años en el mercado y operaciones en Argentina, Chile, Colombia y Perú, Quatar Viajes se ha destacado por su servicio, asesoría experta y personalizada, excelentes ofertas y todas las formas de pago para que todos puedan cumplir su sueño de viajar.</p>
+          <a routerLink="/vision"  class="btn text-center btn-warning">
+            vision
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fs-2 text-center py-2 ">Razon social</h3>
+          <p>Con más de 20 años en el mercado y operaciones en Argentina, Chile, Colombia y Perú, Quatar Viajes se ha destacado por su servicio, asesoría experta y personalizada, excelentes ofertas y todas las formas de pago para que todos puedan cumplir su sueño de viajar.</p>
+          <a routerLink="/razonsocial"  class="btn text-center btn-danger">
+            razon social
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+</main>

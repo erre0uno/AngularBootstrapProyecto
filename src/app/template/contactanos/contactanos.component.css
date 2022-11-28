@@ -3,8 +3,13 @@
     max-width: 550px;
     padding: 1rem 1rem;
     border-radius: 15px;
-    border: solid 2px rgba(4, 55, 194, 0.531) ;
+    border: solid 2px rgba(0, 31, 116, 0.906) ;
 }
 iframe{
     border-radius: 12px;
 }
+
+main{
+    background-color: rgba(17, 11, 204, 0.687);
+  
+  }

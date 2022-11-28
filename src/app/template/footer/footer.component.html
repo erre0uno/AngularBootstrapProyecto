@@ -1,59 +1,68 @@
-    <footer class="pt-5 px-5">
-      <hr>
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>📍 Secciones</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a routerLink="{{urlmision}}" class="nav-link p-0 text-muted">Mision</a></li>
-            <li class="nav-item mb-2"><a routerLink="{{urlvision}}" class="nav-link p-0 text-muted">Vision</a></li>
-            <li class="nav-item mb-2"><a routerLink="{{urlrazonsocial}}" class="nav-link p-0 text-muted">Razon Social</a></li>
-            <li class="nav-item mb-2"><a routerLink="{{urlquienessomos}}" class="nav-link p-0 text-muted">Quienes somos</a></li>
-            <li class="nav-item mb-2"><a routerLink="{{urlservicios}}" class="nav-link p-0 text-muted">Servicios</a></li>
-          </ul>
+<footer class="pt-5 px-5">
+  <hr>
+  <div class="row">
+    <div class="col-6 col-md-2 mb-3">
+      <h5>📍 Secciones</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="{{urlmision}}" class="nav-link p-0 text-muted">Mision</a></li>
+        <li class="nav-item mb-2"><a routerLink="{{urlvision}}" class="nav-link p-0 text-muted">Vision</a></li>
+        <li class="nav-item mb-2"><a routerLink="{{urlrazonsocial}}" class="nav-link p-0 text-muted">Razon Social</a>
+        </li>
+        <li class="nav-item mb-2"><a routerLink="{{urlquienessomos}}" class="nav-link p-0 text-muted">Quienes somos</a>
+        </li>
+        <li class="nav-item mb-2"><a routerLink="{{urlservicios}}" class="nav-link p-0 text-muted">Servicios</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>📍Secciones</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="{{urltestimonios}}" class="nav-link p-0 text-muted">Testimonios</a>
+        </li>
+        <li class="nav-item mb-2"><a routerLink="{{urlcontactanos}}" class="nav-link p-0 text-muted">Contactos</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politicas</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+      <h5>Destinos 🔥 </h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Roma</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Madrid</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Francia</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Budapest</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valencia</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-5 offset-md-1 mb-3">
+      <form>
+        <h5>📧 Suscribete a nuestas notificaciones</h5>
+        <p>estaras al tanto de nuestras promociones y eventos exclusivos.</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+          <label for="newsletter1" class="visually-hidden">Correo electronico</label>
+          <input id="newsletter1" type="email" class="form-control" placeholder="Correo electronico">
+          <button class="btn btn-primary" type="button" 
+            [swal]="['Listo!', 'Ahora seras parte de nosotros !', 'success']">Suscribirse</button>
         </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>📍Secciones</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a routerLink="{{urltestimonios}}" class="nav-link p-0 text-muted">Testimonios</a></li>
-            <li class="nav-item mb-2"><a routerLink="{{urlcontactanos}}" class="nav-link p-0 text-muted">Contactos</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politicas</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Destinos 🔥 </h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Roma</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Madrid</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Francia</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Budapest</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valencia</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>📧 Suscribete a nuestas notificaciones</h5>
-            <p>estaras al tanto de nuestras promociones y eventos exclusivos.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Correo electronico</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico">
-              <button class="btn btn-primary" type="button">Suscribirse</button>
-            </div>
-          </form>
-        </div>
-      </div>
-  
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
-      </div>
-    </footer>
-  
+      </form>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#twitter" />
+          </svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#instagram" />
+          </svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook" />
+          </svg></a></li>
+    </ul>
+  </div>
+</footer>

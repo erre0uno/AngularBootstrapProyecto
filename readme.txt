@@ -30,6 +30,7 @@ ng g c template/navbar
 ng g c template/inicio
 ng g c template/footer
 ng g c template/error
+ng g c template/aside
 
 npm install crypto-js
 

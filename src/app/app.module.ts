@@ -16,8 +16,8 @@ import { ServiciosComponent } from './template/servicios/servicios.component';
 import { TestimoniosComponent } from './template/testimonios/testimonios.component';
 import { ContactanosComponent } from './template/contactanos/contactanos.component';
 //import { YouTubePlayerModule } from '@angular/youtube-player';
-//import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
-
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { AsideComponent } from './template/aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -34,13 +34,15 @@ import { ContactanosComponent } from './template/contactanos/contactanos.compone
     ServiciosComponent,
     TestimoniosComponent,
     ContactanosComponent,
+    AsideComponent,
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //SweetAlert2Module.forRoot(),
+    SweetAlert2Module.forRoot(),
+    //SweetAlert2Module,
     
 
   ],
